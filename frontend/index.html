@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Feed | Mini Social Media</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav>
+    <h2>My Feed</h2>
+    <div>
+      <a href="profile.html">My Profile</a>
+      <button id="logoutBtn">Logout</button>
+    </div>
+  </nav>
+
+  <!-- 🔹 Post Creation Form -->
+  <div id="createPostSection">
+    <form id="postForm">
+      <textarea id="postContent" placeholder="What's on your mind?" required></textarea>
+      <button type="submit">Post</button>
+    </form>
+  </div>
+
+  <div id="postContainer">
+    <!-- Posts will be dynamically loaded here by script.js -->
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
